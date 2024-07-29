@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    
+    <View
+        android:id="@+id/borderView"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/border"
+        android:layout_width="204dp"
+        android:layout_height="252dp"/>
+
+    <ImageView
+        android:id="@+id/itemView"
+        tools:background="@drawable/burger"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:textSize="17dp"
+        tools:text="Chiken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/vector"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/vector"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/vector"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/vector"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/vector"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:textSize="24dp"
+        tools:text="12$"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
